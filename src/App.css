@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form input,
+select,
+textarea {
+  display: inline-block;
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.red {
+  color: rgb(168, 3, 3);
+}
+
+.green {
+  color: green;
+}
