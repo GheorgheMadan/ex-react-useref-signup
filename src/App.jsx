@@ -86,6 +86,9 @@ function App() {
     fullNameRef.current.value = ''
     specializationRef.current.value = ''
     yearsExperienceRef.current.value = ''
+    fullNameRef.current.focus()
+    // scrollo alla sezione del form
+    sectionRef.current.scrollIntoView({ behavior: "smooth" })
   }
 
   // creo una ref per scrollare alla sezione del form
